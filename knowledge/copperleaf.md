@@ -30,9 +30,9 @@ Free wifi is available for customers. The network is Copperleaf Guest and the pa
 
 Copperleaf is walk-in first: tables are not reserved for parties of five or fewer. For groups of six or more, email hello@copperleafcafe.com at least a day ahead and we will hold the communal table where we can. We do not take reservations by phone.
 
-## Dogs
+## Dogs and pets
 
-Dogs are welcome on the patio, and water bowls are always out. Inside the café, only service animals are permitted.
+Can I bring my dog to Copperleaf? Yes: dogs are welcome on the patio, and water bowls are always out. Inside the café, only service animals are permitted. Other pets are best left at home.
 
 ## Catering and pastry boxes
 
