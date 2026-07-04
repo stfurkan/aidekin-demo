@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Copperleaf Café · Brightwater</title>
     <meta name="description" content="Neighborhood coffee and brunch on Alder Lane, Brightwater. Pour-overs, in-house pastries, and a small seasonal menu." />
+    <meta name="theme-color" content="#faf6ef" />
     <style>
       :root {
         --ink: #2b2018;
@@ -12,55 +13,139 @@
         --card: #ffffff;
         --copper: #b06a3b;
         --copper-dark: #8f5027;
+        --copper-soft: #f3e4d5;
         --sage: #6b7b64;
         --muted: #8a7a6b;
         --line: #e8dfd2;
+        --radius: 16px;
       }
       * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        * { transition: none !important; animation: none !important; }
+      }
       body {
         margin: 0;
         font: 16px/1.65 Georgia, 'Times New Roman', serif;
         color: var(--ink);
         background: var(--paper);
+        -webkit-font-smoothing: antialiased;
       }
-      .wrap { max-width: 980px; margin: 0 auto; padding: 0 22px; }
+      a { color: var(--copper-dark); }
+      :focus-visible { outline: 2px solid var(--copper); outline-offset: 3px; border-radius: 4px; }
+      .wrap { max-width: 1020px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 24px); }
+      section { scroll-margin-top: 84px; }
+
+      /* ── header ─────────────────────────────────────────────── */
       header {
         position: sticky; top: 0; z-index: 10;
-        background: color-mix(in srgb, var(--paper) 92%, transparent);
-        backdrop-filter: blur(8px);
+        background: color-mix(in srgb, var(--paper) 90%, transparent);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--line);
       }
-      nav { display: flex; align-items: center; gap: 22px; padding: 14px 0; }
-      .brand { font-size: 20px; font-weight: 700; letter-spacing: 0.02em; }
+      nav { display: flex; align-items: center; gap: 14px; padding: 13px 0; }
+      .brand { font-size: clamp(17px, 2.6vw, 20px); font-weight: 700; letter-spacing: 0.02em; white-space: nowrap; }
       .brand span { color: var(--copper); }
-      nav a { color: var(--muted); text-decoration: none; font-size: 14px; font-family: ui-sans-serif, system-ui, sans-serif; }
-      nav a:hover { color: var(--copper-dark); }
-      nav .links { display: flex; gap: 18px; margin-left: auto; }
-      .hero { padding: 84px 0 60px; }
-      .kicker { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--copper); }
-      h1 { font-size: clamp(34px, 6vw, 56px); line-height: 1.08; margin: 10px 0 16px; font-weight: 700; }
-      .hero p { max-width: 34em; color: var(--muted); font-size: 18px; }
-      .hero .hours-note { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; color: var(--sage); margin-top: 22px; }
-      section { padding: 44px 0; border-top: 1px solid var(--line); }
-      h2 { font-size: 26px; margin: 0 0 6px; }
-      .sub { color: var(--muted); margin: 0 0 26px; font-size: 15px; }
-      .menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
-      .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; }
-      .card h3 { margin: 0 0 10px; font-size: 17px; color: var(--copper-dark); }
-      .item { display: flex; justify-content: space-between; gap: 12px; padding: 5px 0; font-size: 15px; }
-      .item em { color: var(--muted); font-style: normal; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; }
-      .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
-      @media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
-      .hours td { padding: 3px 18px 3px 0; font-size: 15px; }
-      footer { border-top: 1px solid var(--line); padding: 30px 0 44px; color: var(--muted); font-size: 13px; font-family: ui-sans-serif, system-ui, sans-serif; }
-      footer a { color: var(--copper-dark); }
-      .note { background: #f3ecdf; border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 13px; font-family: ui-sans-serif, system-ui, sans-serif; color: var(--muted); }
+      .links { display: flex; gap: 4px; margin-left: auto; }
+      .links a {
+        color: var(--muted); text-decoration: none; font-size: 14px;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        padding: 6px 10px; border-radius: 999px;
+        transition: color 0.15s, background 0.15s;
+      }
+      .links a:hover { color: var(--copper-dark); background: var(--copper-soft); }
+
+      /* ── hero ───────────────────────────────────────────────── */
+      .hero { position: relative; padding: clamp(56px, 10vw, 96px) 0 clamp(40px, 7vw, 64px); overflow: hidden; }
+      .hero::before {
+        /* CSS-only coffee rings, clipped to the hero */
+        content: '';
+        position: absolute; right: -120px; top: -60px;
+        width: 420px; height: 420px; border-radius: 50%;
+        border: 34px solid var(--copper-soft);
+        box-shadow: 0 0 0 26px var(--paper), 0 0 0 30px var(--line);
+        opacity: 0.55; pointer-events: none;
+      }
+      .hero > * { position: relative; }
+      .kicker {
+        font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px;
+        letter-spacing: 0.18em; text-transform: uppercase; color: var(--copper);
+      }
+      h1 { font-size: clamp(34px, 6.5vw, 58px); line-height: 1.06; margin: 12px 0 16px; font-weight: 700; max-width: 13em; }
+      .hero p.lede { max-width: 33em; color: var(--muted); font-size: clamp(16px, 2.4vw, 18px); margin: 0; }
+      .hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+      .pill {
+        display: inline-flex; align-items: center; gap: 7px;
+        font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px;
+        color: var(--sage); background: var(--card); border: 1px solid var(--line);
+        border-radius: 999px; padding: 7px 14px;
+      }
+      .pill b { color: var(--ink); font-weight: 600; }
+      .dot { width: 7px; height: 7px; border-radius: 50%; background: #6fae7c; flex: none; }
+
+      /* ── sections ───────────────────────────────────────────── */
+      .section { padding: clamp(36px, 6vw, 56px) 0; border-top: 1px solid var(--line); }
+      h2 { font-size: clamp(22px, 3.6vw, 28px); margin: 0 0 6px; }
+      .sub { color: var(--muted); margin: 0 0 26px; font-size: 15px; max-width: 44em; }
+
+      /* menu cards with dotted price leaders */
+      .menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr)); gap: 16px; }
+      .card {
+        background: var(--card); border: 1px solid var(--line);
+        border-radius: var(--radius); padding: 22px 22px 18px;
+        transition: transform 0.18s, box-shadow 0.18s;
+      }
+      @media (hover: hover) {
+        .card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px -18px rgba(43, 32, 24, 0.35); }
+      }
+      .card h3 {
+        margin: 0 0 12px; font-size: 16px; color: var(--copper-dark);
+        display: flex; align-items: center; gap: 8px;
+      }
+      .card h3 svg { width: 17px; height: 17px; flex: none; }
+      .item { display: flex; align-items: baseline; gap: 8px; padding: 6px 0; font-size: 15px; }
+      .item .name { flex: none; max-width: 75%; }
+      .item .leader { flex: 1; border-bottom: 2px dotted var(--line); transform: translateY(-4px); min-width: 14px; }
+      .item em { color: var(--muted); font-style: normal; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; flex: none; }
+
+      /* visit */
+      .grid2 { display: grid; grid-template-columns: 1.1fr 1fr; gap: 18px; }
+      @media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+      .hours { width: 100%; border-collapse: collapse; font-size: 15px; }
+      .hours td { padding: 8px 0; border-bottom: 1px dashed var(--line); }
+      .hours tr:last-child td { border-bottom: 0; }
+      .hours td:last-child { text-align: right; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; color: var(--sage); }
+      .addr { font-size: 15px; margin: 16px 0 0; }
+      .addr small { display: block; color: var(--muted); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; margin-top: 4px; }
+      .notes { display: grid; gap: 10px; }
+      .note {
+        display: flex; gap: 12px; align-items: flex-start;
+        background: var(--copper-soft); border: 1px solid var(--line); border-radius: 12px;
+        padding: 12px 14px; font-size: 13.5px; font-family: ui-sans-serif, system-ui, sans-serif; color: #6d5744;
+      }
+      .note svg { width: 16px; height: 16px; flex: none; margin-top: 2px; color: var(--copper-dark); }
+
+      /* about */
+      .about-quote {
+        border-left: 3px solid var(--copper); padding: 4px 0 4px 18px;
+        max-width: 42em; color: var(--muted); font-size: clamp(16px, 2.4vw, 18px); font-style: italic;
+      }
+
+      footer { border-top: 1px solid var(--line); padding: 28px 0 44px; color: var(--muted); font-size: 13px; font-family: ui-sans-serif, system-ui, sans-serif; line-height: 1.8; }
+
+      @media (max-width: 560px) {
+        .hero::before { right: -220px; opacity: 0.35; }
+        .links a { padding: 6px 8px; font-size: 13px; }
+        .item .name { max-width: 70%; }
+      }
     </style>
   </head>
   <body>
     <header>
       <div class="wrap">
-        <nav>
+        <nav aria-label="Main">
           <div class="brand">Copperleaf <span>Café</span></div>
           <div class="links">
             <a href="#menu">Menu</a>
@@ -75,79 +160,82 @@
       <div class="hero">
         <div class="kicker">Brightwater · est. 2019</div>
         <h1>Slow coffee, warm bread, no hurry.</h1>
-        <p>
+        <p class="lede">
           A neighborhood café on the corner of Alder Lane and Harbor Street. Single-origin
           pour-overs, pastries baked in-house every morning, and brunch served daily until 2:30.
         </p>
-        <p class="hours-note">Open today · Mon–Fri 7:30–18:00 · Sat–Sun 8:00–17:00</p>
+        <div class="hero-meta">
+          <span class="pill"><span class="dot" aria-hidden="true"></span> Open today until 18:00</span>
+          <span class="pill">Brunch daily <b>until 14:30</b></span>
+          <span class="pill">14 Alder Lane</span>
+        </div>
       </div>
 
-      <section id="menu">
+      <section id="menu" class="section">
         <h2>The short menu</h2>
         <p class="sub">Seasonal, small, and baked or brewed the same morning. Ask about today's pour-over.</p>
         <div class="menu">
           <div class="card">
-            <h3>Coffee &amp; drinks</h3>
-            <div class="item"><span>Espresso / cortado / flat white</span><em>3.0–4.2</em></div>
-            <div class="item"><span>Batch brew</span><em>3.2</em></div>
-            <div class="item"><span>Single-origin pour-over</span><em>5.5</em></div>
-            <div class="item"><span>Chai / matcha / hot chocolate</span><em>4.5</em></div>
-            <div class="item"><span>Oat, almond or soy milk</span><em>no charge</em></div>
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M17 8h1a3 3 0 1 1 0 6h-1M3 8h14v7a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/><path d="M7 2v2M11 2v2M15 2v2" stroke-linecap="round"/></svg>Coffee &amp; drinks</h3>
+            <div class="item"><span class="name">Espresso / cortado / flat white</span><span class="leader"></span><em>3.0–4.2</em></div>
+            <div class="item"><span class="name">Batch brew</span><span class="leader"></span><em>3.2</em></div>
+            <div class="item"><span class="name">Single-origin pour-over</span><span class="leader"></span><em>5.5</em></div>
+            <div class="item"><span class="name">Chai / matcha / hot chocolate</span><span class="leader"></span><em>4.5</em></div>
+            <div class="item"><span class="name">Oat, almond or soy milk</span><span class="leader"></span><em>no charge</em></div>
           </div>
           <div class="card">
-            <h3>Brunch · until 2:30</h3>
-            <div class="item"><span>Ricotta &amp; honey sourdough toast</span><em>9</em></div>
-            <div class="item"><span>Avocado toast, pickled chili</span><em>11</em></div>
-            <div class="item"><span>Shakshuka, grilled sourdough</span><em>13</em></div>
-            <div class="item"><span>Buttermilk pancakes, fruit</span><em>12</em></div>
-            <div class="item"><span>Bacon &amp; egg brioche roll</span><em>10</em></div>
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3.5 9h17M3.5 15h17" stroke-linecap="round"/></svg>Brunch · until 2:30</h3>
+            <div class="item"><span class="name">Ricotta &amp; honey sourdough toast</span><span class="leader"></span><em>9</em></div>
+            <div class="item"><span class="name">Avocado toast, pickled chili</span><span class="leader"></span><em>11</em></div>
+            <div class="item"><span class="name">Shakshuka, grilled sourdough</span><span class="leader"></span><em>13</em></div>
+            <div class="item"><span class="name">Buttermilk pancakes, fruit</span><span class="leader"></span><em>12</em></div>
+            <div class="item"><span class="name">Bacon &amp; egg brioche roll</span><span class="leader"></span><em>10</em></div>
           </div>
           <div class="card">
-            <h3>From the oven</h3>
-            <div class="item"><span>Croissant</span><em>3.8</em></div>
-            <div class="item"><span>Cardamom bun</span><em>4.2</em></div>
-            <div class="item"><span>Seasonal galette</span><em>5</em></div>
-            <div class="item"><span>Copperleaf cinnamon knot</span><em>4.5</em></div>
-            <div class="item"><span>Pastry box (dozen, 48h notice)</span><em>38</em></div>
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 19h16M6 19c-1-6 2-11 6-13 4 2 7 7 6 13" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 6v13" stroke-linecap="round"/></svg>From the oven</h3>
+            <div class="item"><span class="name">Croissant</span><span class="leader"></span><em>3.8</em></div>
+            <div class="item"><span class="name">Cardamom bun</span><span class="leader"></span><em>4.2</em></div>
+            <div class="item"><span class="name">Seasonal galette</span><span class="leader"></span><em>5</em></div>
+            <div class="item"><span class="name">Copperleaf cinnamon knot</span><span class="leader"></span><em>4.5</em></div>
+            <div class="item"><span class="name">Pastry box (dozen, 48h notice)</span><span class="leader"></span><em>38</em></div>
           </div>
         </div>
       </section>
 
-      <section id="visit">
+      <section id="visit" class="section">
         <h2>Visit</h2>
         <p class="sub">Walk-ins first. For groups of six or more, email a day ahead and we'll hold the big table.</p>
         <div class="grid2">
-          <div>
+          <div class="card">
             <table class="hours">
-              <tr><td>Monday–Friday</td><td>7:30–18:00</td></tr>
-              <tr><td>Saturday–Sunday</td><td>8:00–17:00</td></tr>
+              <tr><td>Monday – Friday</td><td>7:30 – 18:00</td></tr>
+              <tr><td>Saturday – Sunday</td><td>8:00 – 17:00</td></tr>
               <tr><td>Kitchen (brunch)</td><td>until 14:30 daily</td></tr>
             </table>
-            <p style="font-size:15px; margin-top:14px">
-              14 Alder Lane, Brightwater<br />
-              5 min from Brightwater Central · lot behind the building on Harbor Street
+            <p class="addr">
+              14 Alder Lane, Brightwater
+              <small>5 min from Brightwater Central · parking lot behind the building, entrance on Harbor Street</small>
             </p>
           </div>
-          <div>
-            <p class="note">
-              Dogs welcome on the patio · free wifi (password on your receipt) · first-Friday open
-              mic, 19:00–21:00 · gluten-free and vegan options daily
-            </p>
-            <p style="font-size:15px; margin-top:14px">
-              Questions? Try the chat bubble in the corner: our assistant answers from the café's
-              own info, right in your browser.
-            </p>
+          <div class="notes">
+            <p class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 5.2C10 8 4 9 4 14a6 6 0 0 0 12 0c0-5-6-6-6-8.8z" transform="translate(4 0) scale(0.9)"/></svg>
+              Dogs welcome on the patio · free wifi, password on your receipt · gluten-free and vegan options baked daily</p>
+            <p class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 18V6l10-2v12M9 10l10-2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/></svg>
+              First-Friday open mic, 19:00–21:00 · free entry, short evening menu</p>
+            <p class="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.9 8.9 0 0 1-3.8-.8L3 21l1.9-4.6a8.4 8.4 0 1 1 16.1-4.9z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Questions? The chat bubble in the corner answers from the café's own info, right in your browser.</p>
           </div>
         </div>
       </section>
 
-      <section id="about">
+      <section id="about" class="section">
         <h2>About</h2>
-        <p class="sub" style="max-width:40em">
+        <p class="sub">
           Copperleaf started as a weekend bake stall at the Brightwater harbor market. The beans
           are roasted for us weekly by Alder Roasting Co., the bread is our own sourdough, and the
           menu changes with whatever the growers on Harbor Street have that week.
         </p>
+        <p class="about-quote">"Third place, first names." That's the whole business plan.</p>
       </section>
     </div>
 
