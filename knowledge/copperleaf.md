@@ -4,7 +4,7 @@ Copperleaf Café is a neighborhood coffee shop and brunch spot at 14 Alder Lane,
 
 ## Hours
 
-Copperleaf Café is open Monday to Friday from 7:30 in the morning to 6 in the evening, and Saturday and Sunday from 8 in the morning to 5 in the afternoon. The kitchen serves brunch until 2:30 in the afternoon every day; drinks and pastries are available until closing. We are closed on New Year's Day and on December 25 and 26.
+What time does Copperleaf Café open and close, and what time do you close on Sunday? On weekdays, Monday to Friday, the café is open from 7:30 in the morning to 6 in the evening. On the weekend, Saturday and Sunday, the café is open from 8 in the morning and closes at 5 in the afternoon, so on Sunday we close at 5 in the afternoon. The kitchen serves brunch until 2:30 in the afternoon every day; drinks and pastries are available until the café closes. We are closed on New Year's Day and on December 25 and 26.
 
 ## Location and parking
 
@@ -32,7 +32,7 @@ Copperleaf is walk-in first: tables are not reserved for parties of five or fewe
 
 ## Dogs and pets
 
-Can I bring my dog to Copperleaf? Yes: dogs are welcome on the patio, and water bowls are always out. Inside the café, only service animals are permitted. Other pets are best left at home.
+Can I bring my dog to Copperleaf? Yes, and we love saying hello to them: dogs are welcome on the patio, and there are always fresh water bowls out for them. Inside the café, we welcome service animals. Other pets are happiest at home, but your dog is always a friend on the patio.
 
 ## Catering and pastry boxes
 
@@ -44,7 +44,7 @@ We sell 250 gram bags of the beans we brew, roasted for us weekly by Alder Roast
 
 ## Events
 
-On the first Friday of every month we host an open mic from 7 to 9 in the evening; entry is free and the kitchen serves a short evening menu. Follow the Events board by the door or ask the team what is coming up.
+Copperleaf hosts a free open mic night on the first Friday evening of every month, with live music from local performers and a short menu from the kitchen. Follow the Events board by the door or ask the team what is coming up.
 
 ## Contact
 
