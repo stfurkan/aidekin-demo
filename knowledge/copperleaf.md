@@ -2,9 +2,17 @@
 
 Copperleaf Café is a neighborhood coffee shop and brunch spot on the corner of Alder Lane and Harbor Street, at 14 Alder Lane, Brightwater (established 2019). We pull roast-forward espresso, brew single-origin pour-overs, and serve a small seasonal brunch, with pastries baked in-house every morning. The menu prices below match what is posted in the café.
 
-## Hours
+## Weekday hours, Monday to Friday
 
-What time does Copperleaf Café open and close, and what time do you close on Sunday? Monday to Friday we are open from 7:30 in the morning to 18:00 (6 in the evening). On Saturday and Sunday we are open from 8:00 in the morning to 17:00 (5 in the afternoon), so on Sunday we close at 17:00. The kitchen serves brunch until 14:30 (2:30 in the afternoon) every day; drinks and pastries are available until the café closes.
+What time does Copperleaf Café open and close on weekdays, Monday to Friday? On weekdays, that is Monday, Tuesday, Wednesday, Thursday, and Friday, we open at 7:30 AM and close at 6:00 PM. Our weekday opening time is 7:30 AM. Our weekday closing time is 6:00 PM, which is 18:00.
+
+## Weekend hours, Saturday and Sunday
+
+What time does Copperleaf Café open and close on the weekend, on Saturday and on Sunday? On Saturday and on Sunday we open at 8:00 AM and close at 5:00 PM. Our weekend opening time is 8:00 AM, the same on both Saturday and Sunday. Our weekend closing time is 5:00 PM, which is 17:00, the same on both Saturday and Sunday. Our weekend hours are not the same as our weekday hours: on the weekend we open at 8:00 AM, which is later than the weekday 7:30 AM, and we close at 5:00 PM, which is earlier than the weekday 6:00 PM.
+
+## Kitchen and brunch hours
+
+Until what time do you serve brunch and food from the kitchen? The kitchen serves brunch until 14:30, which is 2:30 in the afternoon, every day. Drinks and pastries are available until the café closes.
 
 ## Location and parking
 
@@ -28,7 +36,7 @@ What are your prices, and how much does everything cost? Here is the full price 
 
 ## Payment methods
 
-What payment methods do you accept, and can I pay by credit card or Apple Pay? We accept all major credit and debit cards, contactless, Apple Pay, Google Pay, and cash. There is no minimum spend for card or contactless payments, and you can tap to pay with your phone or watch at the counter.
+What payment methods do you accept, and can I pay by credit card or Apple Pay? We accept all major credit and debit cards, contactless payments, Apple Pay, and cash. There is no minimum spend for card or contactless payments, and you can tap to pay with your phone or your watch at the counter.
 
 ## Dietary options and allergens
 
