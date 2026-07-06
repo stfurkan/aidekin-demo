@@ -1,6 +1,6 @@
 # Copperleaf Café
 
-Copperleaf Café is a neighborhood coffee shop and brunch spot on the corner of Alder Lane and Harbor Street, at 14 Alder Lane, Brightwater (established 2019). We pull roast-forward espresso, brew single-origin pour-overs, and serve a small seasonal brunch, with pastries baked in-house every morning. The prices below are the ones shown on our menu.
+Copperleaf Café is a neighborhood coffee shop and brunch spot on the corner of Alder Lane and Harbor Street, at 14 Alder Lane, Brightwater (established 2019). We pull roast-forward espresso, brew single-origin pour-overs, and serve a small seasonal brunch, with pastries baked in-house every morning. The menu prices below match what is posted in the café.
 
 ## Hours
 
@@ -12,7 +12,7 @@ Copperleaf Café is at 14 Alder Lane, Brightwater, on the corner of Alder Lane a
 
 ## Coffee and drinks
 
-How much is a coffee, an espresso, a cortado, or a flat white at Copperleaf? Espresso, cortado, or flat white are from 3.0. Batch brew filter coffee is 3.2, and a single-origin pour-over, which changes regularly, is 5.5, so ask about today's pour-over. Chai, matcha, and hot chocolate are 4.5 each. Oat, almond, and soy milk are available at no extra charge.
+How much is a coffee, an espresso, a latte, a cappuccino, a cortado, or a flat white at Copperleaf? An espresso is 3.0, and our espresso drinks, including the cortado, flat white, latte, and cappuccino, are from 3.0. Batch brew filter coffee is 3.2, and a single-origin pour-over, which changes regularly, is 5.5, so ask about today's pour-over. Chai, matcha, and hot chocolate are 4.5 each. Oat, almond, and soy milk are available at no extra charge.
 
 ## Brunch menu
 
@@ -24,7 +24,11 @@ Pastries are baked in-house each morning. A croissant is 3.8, a cardamom bun 4.2
 
 ## Menu prices
 
-What are your prices, and how much does everything cost? Here is the full price list. Coffee and drinks: espresso, cortado, or flat white from 3.0; batch brew 3.2; single-origin pour-over 5.5; chai, matcha, or hot chocolate 4.5; oat, almond, or soy milk at no charge. Brunch, served until 14:30: ricotta and honey sourdough toast 9, avocado toast 11, shakshuka 13, buttermilk pancakes 12, bacon and egg brioche roll 10. From the oven: croissant 3.8, cardamom bun 4.2, seasonal galette 5, copperleaf cinnamon knot 4.5, pastry box of a dozen 38.
+What are your prices, and how much does everything cost? Here is the full price list. Coffee and drinks: espresso 3.0, and espresso drinks (cortado, flat white, latte, cappuccino) from 3.0; batch brew 3.2; single-origin pour-over 5.5; chai, matcha, or hot chocolate 4.5; oat, almond, or soy milk at no charge. Brunch, served until 14:30: ricotta and honey sourdough toast 9, avocado toast 11, shakshuka 13, buttermilk pancakes 12, bacon and egg brioche roll 10. From the oven: croissant 3.8, cardamom bun 4.2, seasonal galette 5, copperleaf cinnamon knot 4.5, pastry box of a dozen 38.
+
+## Payment methods
+
+What payment methods do you accept, and can I pay by credit card or Apple Pay? We accept all major credit and debit cards, contactless, Apple Pay, Google Pay, and cash. There is no minimum spend for card or contactless payments, and you can tap to pay with your phone or watch at the counter.
 
 ## Dietary options and allergens
 
@@ -42,9 +46,17 @@ Copperleaf is walk-in first: tables are not reserved for small parties. For grou
 
 Can I bring my dog to Copperleaf? Yes: dogs are welcome on the patio, and there are fresh water bowls out for them. Inside the café we welcome service animals. Other pets are happiest at home, but your dog is always a friend on the patio.
 
+## Kids, takeaway, and restrooms
+
+Is Copperleaf good for kids and families, do you have high chairs, and can I get my order to go? Children are welcome, and we keep a few high chairs by the window. Everything on the menu is available for takeaway, and we are always happy to fill a clean reusable cup. Restrooms, including an accessible restroom, are inside past the counter, and the café is step-free from the Alder Lane entrance.
+
 ## Catering and pastry boxes
 
 We make pastry boxes of a dozen assorted pastries for 38, with at least 48 hours' notice, ordered by email at hello@copperleafcafe.com. For office catering or a larger event, mention the date and headcount in your email and we will get back to you.
+
+## Beans, gift cards, and loyalty
+
+We sell 250 gram bags of the beans we brew, roasted for us weekly by Alder Roasting Co.; ask at the counter. Gift cards are available at the counter in any amount. Our loyalty card gives you the tenth coffee free, one stamp per visit, and it never expires.
 
 ## Events
 
