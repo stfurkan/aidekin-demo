@@ -18,9 +18,13 @@ Until what time do you serve brunch and food from the kitchen? The kitchen serve
 
 Copperleaf Café is at 14 Alder Lane, Brightwater, on the corner of Alder Lane and Harbor Street. It is a 5 minute walk from Brightwater Central station. There is a parking lot directly behind the building, with the entrance on Harbor Street.
 
-## Coffee and drinks
+## Drinks menu
 
-How much is a coffee, an espresso, a latte, a cappuccino, a cortado, or a flat white at Copperleaf? An espresso is 3.0, and our espresso drinks, including the cortado, flat white, latte, and cappuccino, are from 3.0. Batch brew filter coffee is 3.2, and a single-origin pour-over, which changes regularly, is 5.5, so ask about today's pour-over. Chai, matcha, and hot chocolate are 4.5 each. Oat, almond, and soy milk are available at no extra charge.
+What drinks do you have, and do you have matcha, chai, or tea? Our coffee is roast-forward espresso: espresso, cortado, flat white, latte, and cappuccino. We also pour batch brew filter coffee and a single-origin pour-over that changes regularly, so ask about today's pour-over. For drinks without coffee we make matcha, chai, and hot chocolate, and any of them can be made with oat, almond, or soy milk at no extra charge, so every drink can be plant-based. Prices: an espresso is 3.0; the cortado, flat white, latte, and cappuccino are from 3.0; batch brew filter coffee is 3.2; the single-origin pour-over is 5.5; and matcha, chai, or hot chocolate are 4.5 each.
+
+## What to order and recommendations
+
+What do you recommend, what should I order, and what is popular at Copperleaf? If you are not sure what to get, the order people come back for is a flat white with a copperleaf cinnamon knot, our signature pastry. If you like strong coffee, try the roast-forward espresso or the single-origin pour-over of the day. If you like matcha, we make matcha and it is lovely with oat milk; chai and hot chocolate are our other favorites without coffee. If you want something to eat, the shakshuka and the buttermilk pancakes are the brunch dishes people order most, and there are always a couple of vegan pastries fresh from the oven. Tell us whether you are after strong coffee, tea, something sweet, or a plant-based option, and we will point you to the closest thing on our own menu.
 
 ## Brunch menu
 
