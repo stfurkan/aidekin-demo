@@ -22,9 +22,13 @@ Copperleaf Café is at 14 Alder Lane, Brightwater, on the corner of Alder Lane a
 
 What drinks do you have, and do you have matcha, chai, or tea? Our coffee is roast-forward espresso: espresso, cortado, flat white, latte, and cappuccino. We also pour batch brew filter coffee and a single-origin pour-over that changes regularly, so ask about today's pour-over. For drinks without coffee we make matcha, chai, and hot chocolate, and any of them can be made with oat, almond, or soy milk at no extra charge, so every drink can be plant-based. Prices: an espresso is 3.0; the cortado, flat white, latte, and cappuccino are from 3.0; batch brew filter coffee is 3.2; the single-origin pour-over is 5.5; and matcha, chai, or hot chocolate are 4.5 each.
 
-## What to order and recommendations
+## What drink to choose
 
-What do you recommend, what should I order, and what is popular at Copperleaf? If you are not sure what to get, the order people come back for is a flat white with a copperleaf cinnamon knot, our signature pastry. If you like strong coffee, try the roast-forward espresso or the single-origin pour-over of the day. If you like matcha, we make matcha and it is lovely with oat milk; chai and hot chocolate are our other favorites without coffee. If you want something to eat, the shakshuka and the buttermilk pancakes are the brunch dishes people order most, and there are always a couple of vegan pastries fresh from the oven. Tell us whether you are after strong coffee, tea, something sweet, or a plant-based option, and we will point you to the closest thing on our own menu.
+What drink do you recommend, and what can I drink if I like matcha or want something without coffee? For coffee, regulars order the roast-forward espresso or the single-origin pour-over of the day, and a flat white is a good everyday choice. If you like matcha, order our matcha, which is lovely made with oat milk. Chai and hot chocolate are our other drinks without coffee. Any drink can be made with oat, almond, or soy milk at no extra charge. These are all drinks, not food.
+
+## What food to choose
+
+What food do you recommend, and what is good to eat at Copperleaf? For brunch, served until 2:30 in the afternoon, the shakshuka with grilled sourdough and the buttermilk pancakes with fruit are the dishes people order most. From the oven, the copperleaf cinnamon knot is our signature pastry, and there are always a couple of vegan pastries and gluten-free options.
 
 ## Brunch menu
 
